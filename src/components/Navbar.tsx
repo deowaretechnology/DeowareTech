@@ -6,6 +6,7 @@ import { cn } from "../lib/utils";
 
 const navLinks = [
   { title: "Home", path: "/" },
+  { title: "About", path: "/about" },
   { title: "Services", path: "/services" },
   { title: "Work", path: "/work" },
   { title: "Contact", path: "/contact" },
@@ -97,7 +98,7 @@ export default function Navbar() {
                 <X className="w-6 h-6" />
               </button>
             </div>
-            
+
             <nav className="flex flex-col gap-6 text-2xl font-serif">
               {navLinks.map((link) => (
                 <Link
